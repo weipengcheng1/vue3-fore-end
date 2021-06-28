@@ -3,6 +3,7 @@ import App from './App.vue'
 import Router from "./router"
 import ElementPlus from "element-plus"
 import "element-plus/lib/theme-chalk/index.css"
+import "element-plus/packages/theme-chalk/src/base.scss"
 
 //自定义模考
 import request from "./utils/request";

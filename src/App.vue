@@ -1,14 +1,18 @@
 <template>
-    <router-view></router-view>
+		<router-view></router-view>
 </template>
 
 <script>
 export default {
-    name: "app"
+		name: "app"
 }
 </script>
 
 <style lang="scss">
 @import "./assets/style/reset.css";
 @import "./assets/style/index";
+
+body {
+		font-size: 16px;
+}
 </style>
